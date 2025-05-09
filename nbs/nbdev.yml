@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "tone_datagen"
+  site-url: "https://leoauri.github.io/tone_datagen"
+  description: "Generate tone-based dataset"
+  repo-branch: main
+  repo-url: "https://github.com/leoauri/tone_datagen"
