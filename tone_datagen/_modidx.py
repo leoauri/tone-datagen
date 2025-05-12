@@ -55,4 +55,6 @@ d = { 'settings': { 'branch': 'main',
                                       'tone_datagen.tonegen.gamma': ('randomise.html#gamma', 'tone_datagen/tonegen.py'),
                                       'tone_datagen.tonegen.normal': ('randomise.html#normal', 'tone_datagen/tonegen.py'),
                                       'tone_datagen.tonegen.quant': ('randomise.html#quant', 'tone_datagen/tonegen.py'),
-                                      'tone_datagen.tonegen.uniform': ('randomise.html#uniform', 'tone_datagen/tonegen.py')}}}
+                                      'tone_datagen.tonegen.uniform': ('randomise.html#uniform', 'tone_datagen/tonegen.py')},
+            'tone_datagen.util': { 'tone_datagen.util.hear': ('util.html#hear', 'tone_datagen/util.py'),
+                                   'tone_datagen.util.see': ('util.html#see', 'tone_datagen/util.py')}}}
