@@ -9,6 +9,7 @@ from matplotlib import pyplot as plt
 # %% ../nbs/util.ipynb 3
 def see(stream):
     plt.plot(list(stream.copy()))
+    plt.show()
 
 # %% ../nbs/util.ipynb 6
 from IPython.display import Audio, display
