@@ -29,7 +29,6 @@ class RandomToneGen:
 
 # %% ../nbs/01_randomise.ipynb 10
 import numpy as np
-import matplotlib.pyplot as plt
 from scipy.stats import norm, gamma as sp_gamma, uniform as sp_uniform
 
 class Distribution:
@@ -37,6 +36,7 @@ class Distribution:
         raise NotImplementedError
     
     def pdf(self, xs=None, n=10000):
+        import matplotlib.pyplot as plt
         samples = [self() for _ in range(n)]
         xs = xs or np.linspace(min(samples), max(samples), 200)
         density, bins = np.histogram(samples, bins=xs, density=True)
